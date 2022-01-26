@@ -6,7 +6,7 @@ var nugetApiKeyEnvironmentVariable = "TAG_PROGET_API_KEY";
 var nugetFeedUrl = "http://proget.eprod.com:81/nuget/TAG/";
 var packagePath = "./packages/";
 var releaseConfiguration = Argument("configuration", "Release");
-var solutionFile = "./src/ef-core-includes.sln.sln";
+var solutionFile = "./src/ef-core-include-filters.sln";
 var target = Argument("target", "Pack");
 
 //////////////////////////////////////////////////////////////////////
